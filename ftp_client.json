@@ -1,0 +1,267 @@
+{
+    "project" : {
+        "project_name" : "ftp_client",
+        "author" : "H.B.",
+        "created" : "21/10/2020",
+        "last_update" : "21/10/2020",
+        "title" : "ftp client explorer",
+        "temp_folder" : "/home/henry/tmp",
+        "min_size_width" : 600,
+        "min_size_height" : 400
+    },
+    "servers" : [
+        {
+            "activity": "yes",
+            "ip"  : "10.153.156.135",
+            "name"  : "86392001",
+            "login"  :   "kspus",
+            "psw"   :   "ip2Jahch",
+            "mode": "passive",
+            "folder" : "/r0/archive",
+            "data_descriptor":{
+                "data_type": "dbf",
+                "separator": "",
+                "fields": [["ДАТА","DATE"],
+                    ["ВРЕМЯ","TIME"],
+                    ["АБОНЕНТ","ABONENT"],
+                    ["АБОНЕНТ2","ABONENT2"],
+                    ["ДЛИТЕЛЬНОСТЬ","TALK_SEC"],
+                    ["ТРАНК_ВХ","TRUNK_IN"],
+                    ["ТРАНК_ИСХ","TRUNK_OUT"]]
+            },
+            "file_name_pattern": "_yyyymmdd"
+        },
+        {
+            "activity": "yes",
+            "ip"    :   "10.153.156.138",
+            "name"  :   "86392002",
+            "login"  :   "kspus",
+            "psw"   :   "eeLie5oh",
+            "mode": "passive",
+            "folder" : "/r0/archive",
+            "data_descriptor":{
+                "data_type": "dbf",
+                "separator": "",
+                "fields": [["ДАТА","DATE"],
+                    ["ВРЕМЯ","TIME"],
+                    ["АБОНЕНТ","ABONENT"],
+                    ["АБОНЕНТ2","ABONENT2"],
+                    ["ДЛИТЕЛЬНОСТЬ","TALK_SEC"],
+                    ["ТРАНК_ВХ","TRUNK_IN"],
+                    ["ТРАНК_ИСХ","TRUNK_OUT"]]
+            },
+            "file_name_pattern": "_yyyymmdd"
+        },
+        {
+            "activity": "yes",
+            "ip"    :   "10.153.156.141",
+            "name"  :   "86392003",
+            "login"  :   "kspus",
+            "psw"   :   "thihi3Th",
+            "mode": "passive",
+            "folder" : "/r0/archive",
+            "data_descriptor":{
+                "data_type": "dbf",
+                "separator": "",
+                "fields": [["ДАТА","DATE"],
+                    ["ВРЕМЯ","TIME"],
+                    ["АБОНЕНТ","ABONENT"],
+                    ["АБОНЕНТ2","ABONENT2"],
+                    ["ДЛИТЕЛЬНОСТЬ","TALK_SEC"],
+                    ["ТРАНК_ВХ","TRUNK_IN"],
+                    ["ТРАНК_ИСХ","TRUNK_OUT"]]
+            },
+            "file_name_pattern": "_yyyymmdd"
+        },
+        {
+            "activity": "yes",
+            "ip"    :   "10.153.156.144",
+            "name"  :   "86392004",
+            "login"  :   "kspus",
+            "psw"   :   "Ge8po3we",
+            "mode": "passive",
+            "folder" : "/r0/archive",
+            "data_descriptor":{
+                "data_type": "dbf",
+                "separator": "",
+                "fields": [["ДАТА","DATE"],
+                    ["ВРЕМЯ","TIME"],
+                    ["АБОНЕНТ","ABONENT"],
+                    ["АБОНЕНТ2","ABONENT2"],
+                    ["ДЛИТЕЛЬНОСТЬ","TALK_SEC"],
+                    ["ТРАНК_ВХ","TRUNK_IN"],
+                    ["ТРАНК_ИСХ","TRUNK_OUT"]]
+            },
+            "file_name_pattern": "_yyyymmdd"
+        },
+        {
+            "activity": "no",
+            "ip"    :   "10.153.156.147",
+            "name"  :   "86392005",
+            "login"  :   "kspus",
+            "psw"   :   "Ba6que9i",
+            "mode": "passive",
+            "folder" : "/r0/archive",
+            "data_descriptor":{
+                "data_type": "dbf",
+                "separator": "",
+                "fields": [["ДАТА","DATE"],
+                    ["ВРЕМЯ","TIME"],
+                    ["АБОНЕНТ","ABONENT"],
+                    ["АБОНЕНТ2","ABONENT2"],
+                    ["ДЛИТЕЛЬНОСТЬ","TALK_SEC"],
+                    ["ТРАНК_ВХ","TRUNK_IN"],
+                    ["ТРАНК_ИСХ","TRUNK_OUT"]]
+            },
+            "file_name_pattern": "_yyyymmdd"
+        },
+        {
+            "activity": "no",
+            "ip"    :   "10.153.156.150",
+            "name"  :   "86392006",
+            "login"  :   "kspus",
+            "psw"   :   "ob9Thi8e",
+            "mode": "passive",
+            "folder" : "/r0/archive",
+            "data_descriptor":{
+                "data_type": "dbf",
+                "separator": "",
+                "fields": [["ДАТА","DATE"],
+                    ["ВРЕМЯ","TIME"],
+                    ["АБОНЕНТ","ABONENT"],
+                    ["АБОНЕНТ2","ABONENT2"],
+                    ["ДЛИТЕЛЬНОСТЬ","TALK_SEC"],
+                    ["ТРАНК_ВХ","TRUNK_IN"],
+                    ["ТРАНК_ИСХ","TRUNK_OUT"]]
+            },
+            "file_name_pattern": "_yyyymmdd"
+        },
+        {
+            "activity": "yes",
+            "ip"    :   "10.153.156.161",
+            "name"  :   "86392008",
+            "login"  :   "kspus",
+            "psw"   :   "Oovoh1Ah",
+            "mode": "passive",
+            "folder" : "/r0/archive",
+            "data_descriptor":{
+                "data_type": "txt",
+                "separator": ";",
+                "header": 0,
+                "fields": [["ДАТА",3],
+                    ["ВРЕМЯ",4],
+                    ["АБОНЕНТ",1],
+                    ["АБОНЕНТ2",2],
+                    ["ДЛИТЕЛЬНОСТЬ",5],
+                    ["ТРАНК_ВХ",-1],
+                    ["ТРАНК_ИСХ",-1]]
+            },
+            "file_name_pattern": "_yyyymmdd"
+        },
+        {
+            "activity": "yes",
+            "ip"    :   "10.153.156.165",
+            "name"  :   "86392009",
+            "login"  :   "kspus",
+            "psw"   :   "iezael9A",
+            "mode": "passive",
+            "folder" : "/r0/archive",
+            "data_descriptor":{
+                "data_type": "bin",
+                "separator": "",
+                "fields": [["ДАТА","DATE"],
+                    ["ВРЕМЯ","TIME"],
+                    ["АБОНЕНТ","ABONENT"],
+                    ["АБОНЕНТ2","ABONENT2"],
+                    ["ДЛИТЕЛЬНОСТЬ","TALK_SEC"],
+                    ["ТРАНК_ВХ","TRUNK_IN"],
+                    ["ТРАНК_ИСХ","TRUNK_OUT"]]
+            },
+            "file_name_pattern": "_yyyymmdd"
+        },
+        {
+            "activity": "yes",
+            "ip"    :   "10.153.156.168",
+            "name"  :   "86392010",
+            "login"  :   "kspus",
+            "psw"   :   "uC0ji0Ki",
+            "mode": "passive",
+            "folder" : "/r0/archive",
+            "data_descriptor":{
+                "data_type": "dbf",
+                "separator": "",
+                "fields": [["ДАТА","DATE"],
+                    ["ВРЕМЯ","TIME"],
+                    ["АБОНЕНТ","ABONENT"],
+                    ["АБОНЕНТ2","ABONENT2"],
+                    ["ДЛИТЕЛЬНОСТЬ","TALK_SEC"],
+                    ["ТРАНК_ВХ","TRUNK_IN"],
+                    ["ТРАНК_ИСХ","TRUNK_OUT"]]
+            },
+            "file_name_pattern": "_yyyymmdd"
+        },
+        {
+            "activity": "yes",
+            "ip"    :   "10.153.156.171",
+            "name"  :   "86392011",
+            "login"  :   "kspus",
+            "psw"   :   "Aew0xoiz",
+            "mode": "passive",
+            "folder" : "/r0/archive",
+            "data_descriptor":{
+                "data_type": "dbf",
+                "separator": "",
+                "fields": [["ДАТА","DATE"],
+                    ["ВРЕМЯ","TIME"],
+                    ["АБОНЕНТ","ABONENT"],
+                    ["АБОНЕНТ2","ABONENT2"],
+                    ["ДЛИТЕЛЬНОСТЬ","TALK_SEC"],
+                    ["ТРАНК_ВХ","TRUNK_IN"],
+                    ["ТРАНК_ИСХ","TRUNK_OUT"]]
+            },
+            "file_name_pattern": "_yyyymmdd"
+        },
+        {
+            "activity": "yes",
+            "ip"    :   "10.153.156.174",
+            "name"  :   "86392012",
+            "login"  :   "kspus",
+            "psw"   :   "Ahsh7cee",
+            "mode": "passive",
+            "folder" : "/r0/archive",
+            "data_descriptor":{
+                "data_type": "dbf",
+                "separator": "",
+                "fields": [["ДАТА","DATE"],
+                    ["ВРЕМЯ","TIME"],
+                    ["АБОНЕНТ","ABONENT"],
+                    ["АБОНЕНТ2","ABONENT2"],
+                    ["ДЛИТЕЛЬНОСТЬ","TALK_SEC"],
+                    ["ТРАНК_ВХ","TRUNK_IN"],
+                    ["ТРАНК_ИСХ","TRUNK_OUT"]]
+            },
+            "file_name_pattern": "_yyyymmdd"
+        },
+        {
+            "activity": "yes",
+            "ip"    :   "10.153.156.179",
+            "name"  :   "86392013",
+            "login"  :   "kspus",
+            "psw"   :   "Ds219zXn",
+            "mode": "passive",
+            "folder" : "/r0/archive",
+            "data_descriptor":{
+                "data_type": "txt",
+                "separator": ",",
+                "fields": [["ДАТА",0],
+                    ["ВРЕМЯ",1],
+                    ["АБОНЕНТ",3],
+                    ["АБОНЕНТ2",5],
+                    ["ДЛИТЕЛЬНОСТЬ",7],
+                    ["ТРАНК_ВХ",13],
+                    ["ТРАНК_ИСХ",14]]
+            },
+            "file_name_pattern": "_yyyymmdd"
+        }
+    ]
+}
